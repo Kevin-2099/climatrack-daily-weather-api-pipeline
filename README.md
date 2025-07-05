@@ -31,37 +31,24 @@ Automatiza la consulta diaria del clima en múltiples ciudades usando la API de 
 ## 📦 Instalación
 
 1. Clona el repositorio:
-
-```bash
 git clone https://github.com/tuusuario/climatrack-daily-weather-api-pipeline.git
 cd climatrack-daily-weather-api-pipeline
 Instala las dependencias:
 
-bash
-Copiar
-Editar
 pip install -r requirements.txt
 Si no tienes un archivo requirements.txt, simplemente instala manualmente:
 
-bash
-Copiar
-Editar
+
 pip install requests pandas
 Consigue tu API Key gratuita en https://openweathermap.org/api
 
 Reemplaza "TU_API_KEY" en el código por tu clave.
 
-🚀 Uso
+## 🚀Uso
 Ejecuta el script principal:
-
-bash
-Copiar
-Editar
 python climatrack.py
 Se generará automáticamente un archivo .csv como:
 
-Copiar
-Editar
 datos_clima_2025-06-19.csv
 Con un contenido como:
 
